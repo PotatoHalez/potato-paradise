@@ -1,0 +1,9 @@
+.aboutPotato {
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutPotato img {
+    max-width: 50%;
+    height: 50%;
+}
