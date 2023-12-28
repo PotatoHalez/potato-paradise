@@ -1,9 +1,34 @@
 .aboutPotato {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1f 1fr;
+    gap: 20px;
+    align-items: start;
+    margin: 20px;
+    border: 2px solid #FFD700;
     padding: 20px;
 }
 
 .aboutPotato img {
-    max-width: 50%;
-    height: 50%;
+    /* max-width: 35%;
+    height: 20%; */
+    width: 30%;
+    grid-column: span 2;
+}
+
+.aboutPotato h1
+.aboutPotato p {
+    margin: 0;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginForm input, 
+.loginForm button {
+    display: block;
+    margin: 10px auto;
 }
