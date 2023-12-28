@@ -2,9 +2,25 @@ import React from 'react';
 import './css/AboutPotato.css'
 
 const AboutPotato = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert('Just kidding! No login needed (yet) to enjoy Potato Paradise!');
+    }
+
     return (
         <div className='aboutPotato'>
+            <div className='loginContainer'>
             <img src='images/potatoparadise.jpeg' alt='Potato Paradise' />
+            <div className='loginSection'>
+                <h2> Log into Potato Paradise here!</h2>
+            <form onSubmit={handleSubmit} className='loginForm'>
+                <input type='text' placeholder= 'Potatoname' />
+                <input type='text' placeholder='Potatoword' />
+                <button type='submit'>Potato time</button>
+                </form>
+            </div>
+            </div>
+            <div>
             <h1> What is Potato Paradise? </h1><p>Welcome to Potato Paradise, the spud-tacular utopia where the humble potato reigns supreme!
                  This is a land where carbs are not the enemy, and every day is a fry-day. 
                  Inspired by the snack-sneaking shenanigans of Sasha Blouse from Attack on Titan, 
@@ -17,7 +33,8 @@ const AboutPotato = () => {
                 Unapologetically munching in the face of danger, Sasha's the hero every lunch break deserves.
                 Whether it's a battle against titans or a race to the dinner plate, she's your potato girl. Just don't come between her and her carbs! 
                 </p>
-            </div>
+            </div> 
+        </div>
     );
 };
 
