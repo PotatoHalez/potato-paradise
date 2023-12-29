@@ -1,4 +1,4 @@
-import AboutPotato from './aboutPotato';
+import AboutPotato from './pages/AboutPotato';
 
 
 function App() {
