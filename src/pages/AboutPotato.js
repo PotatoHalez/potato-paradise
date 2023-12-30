@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/AboutPotato.css'
+import '../css/AboutPotato.css'
 
 const AboutPotato = () => {
     const handleSubmit = (e) => {
