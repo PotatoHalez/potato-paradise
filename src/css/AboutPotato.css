@@ -9,8 +9,6 @@
 }
 
 .aboutPotato img {
-    /* max-width: 35%;
-    height: 20%; */
     width: 30%;
     grid-column: span 2;
 }
