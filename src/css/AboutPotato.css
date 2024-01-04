@@ -1,5 +1,6 @@
 .aboutPotato {
-    display: grid;
+    /* display: grid; */
+    display: flex;
     grid-template-columns: 1f 1fr;
     gap: 20px;
     align-items: start;
@@ -10,23 +11,10 @@
 
 .aboutPotato img {
     width: 30%;
-    grid-column: span 2;
+    height: auto;
 }
 
 .aboutPotato h2
 .aboutPotato p {
     margin: 0;
-}
-
-.loginContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
-
-.loginForm input, 
-.loginForm button {
-    display: block;
-    margin: 10px auto;
 }
