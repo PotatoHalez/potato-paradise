@@ -5,7 +5,7 @@ const PotatoPics = () => {
    
     return ( 
         <>
-    <h1> The land of delicious potatoes </h1>
+    <h1> The land of delicious potatoes! </h1>
     <div className='potatoFeast'>
         <img src='images/potatofeast.jpeg' alt='Potato Feast' />
     </div>
