@@ -1,0 +1,13 @@
+.app {
+    transition: background-color 0.5s; 
+  }
+  .day {
+    background-color: white;
+    color: black;
+  }
+  
+  .night {
+    background-color: black;
+    color: white;
+  }
+  
