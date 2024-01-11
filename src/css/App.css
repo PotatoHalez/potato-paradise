@@ -2,12 +2,11 @@
     transition: background-color 0.5s; 
   }
   .day {
-    background-color: white;
+    background-color: #EFCCA2;
     color: black;
   }
   
   .night {
-    background-color: black;
+    background-color: #23395d;
     color: white;
   }
-  
