@@ -22,7 +22,12 @@ const PotatoGame = () => {
 
     // event listener 
 
-    // return 
+    // return remove event listener 
+
+    // return, game container 
+
+    // create initial potatoes and return of array
+                                
     
 }
 
