@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import "./PotatoGame.css";
+import React, { useState, useEffect } from 'react';
+import './PotatoGame.css';
 
 const PotatoGame = () => {
   const [potatoes, setPotatoes] = useState([]);
