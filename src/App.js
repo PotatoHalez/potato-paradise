@@ -5,6 +5,7 @@ import AboutPotato from './pages/AboutPotato';
 import Quotes from './pages/Quotes';
 import PotatoPics from './pages/PotatoPics';
 import Home from './pages/Home';
+import PotatoGame from './components/PotatoGame';
 import './css/App.css'
 
 
@@ -24,6 +25,7 @@ function App() {
     <Route path='/AboutPotato' element={<AboutPotato/>} />
     <Route path='/Quotes' element={<Quotes/>} />
     <Route path='/PotatoPics' element={<PotatoPics/>} />
+    <Route path='/PotatoGame' element={<PotatoGame/>} />
   </Routes>
   </div>
 </Router>
