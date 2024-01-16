@@ -14,7 +14,7 @@
     height: auto;
 }
 
-.aboutPotato h2
+.aboutPotato h2,
 .aboutPotato p {
     margin: 0;
 }
