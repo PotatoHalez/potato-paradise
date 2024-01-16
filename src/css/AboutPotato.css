@@ -1,9 +1,9 @@
 .aboutPotato {
     /* display: grid; */
     display: flex;
-    grid-template-columns: 1f 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    align-items: start;
+    align-items: flex-start;
     margin: 20px;
     border: 2px solid #FFD700;
     padding: 20px;
