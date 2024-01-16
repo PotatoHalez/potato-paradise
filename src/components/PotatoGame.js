@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './PotatoGame.css';
+import '../css/PotatoGame.css';
 
 const PotatoGame = () => {
   const [potatoes, setPotatoes] = useState([]);
@@ -56,16 +56,16 @@ const PotatoGame = () => {
   }, [basket]);
 
   return (
-    <div className="game-container">
+    <div className='game-container'>
       {potatoes.map((potato) => (
         <div
           key={potato.id}
-          className="potato"
+          className='potato'
           style={{ left: `${potato.x}%`, top: `${potato.y}%` }}
         />
       ))}
-      <div className="basket" style={{ left: `${basket.position}%` }} />
-      <div className="score">Score: {score}</div>
+      <div className='basket' style={{ left: `${basket.position}%` }} />
+      <div className='score'>Score: {score}</div>
     </div>
   );
 };
