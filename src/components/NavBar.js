@@ -10,6 +10,7 @@ const Navbar = ( { toggleTheme }) => {
             <Link to ='/AboutPotato'>About Potato</Link>
             <Link to ='/Quotes'>Quotes</Link>
             <Link to ='/PotatoPics'> Potato Pics</Link>
+            <Link to ='/PotatoGame'> Potato Game</Link>
         </nav>
     );
 };
