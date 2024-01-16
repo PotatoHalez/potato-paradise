@@ -9,7 +9,8 @@
     position: absolute;
     width: 30px; 
     height: 30px;
-    /* background-image:  */
+      /* background-image:  */
+    background-color: yellow;
     background-size: cover;
   }
   
@@ -18,6 +19,7 @@
     bottom: 0;
     width: 50px; 
     height: 50px; 
+    background-color: tan;
     /* background-image:  */
     background-size: cover;
   }
