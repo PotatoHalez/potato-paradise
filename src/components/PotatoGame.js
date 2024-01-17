@@ -43,16 +43,16 @@ const PotatoGame = () => {
 
   useEffect(() => {
     const handleKeyPress = (event) => {
-      if (event.key === "ArrowLeft" && basket.position > 0) {
+      if (event.key === 'ArrowLeft' && basket.position > 0) {
         setBasket({ position: basket.position - 5 });
-      } else if (event.key === "ArrowRight" && basket.position < 100) {
+      } else if (event.key === 'ArrowRight' && basket.position < 100) {
         setBasket({ position: basket.position + 5 });
       }
     };
 
-    window.addEventListener("keydown", handleKeyPress);
+    window.addEventListener('keydown', handleKeyPress);
 
-    return () => window.removeEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
   }, [basket]);
 
   return (
