@@ -1,1 +1,1 @@
-// allow users to build their own potato dish and submit pictures, this is more so for backend future 
+// allow users to build their own potato dish and submit pictures, this will not be implemented until I build out the backend 
